@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="github.xiaoymin.swagger.bootstrap.ui" type="repository">
+    <properties maven-id="com.github.xiaoymin:swagger-bootstrap-ui:1.9.6" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/swagger-bootstrap-ui-1.9.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.25.0-GA.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

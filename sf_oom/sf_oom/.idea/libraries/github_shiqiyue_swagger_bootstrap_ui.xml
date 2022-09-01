@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="github.shiqiyue.swagger.bootstrap.ui" type="repository">
+    <properties maven-id="com.github.shiqiyue:swagger-bootstrap-ui:1.9.6" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../repository/swagger-bootstrap-ui-1.9.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sf_oom.iml" filepath="$PROJECT_DIR$/sf_oom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sf_oom-generator/sf_oom-generator.iml" filepath="$PROJECT_DIR$/sf_oom-generator/sf_oom-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sf_oom-server/sf_oom-server.iml" filepath="$PROJECT_DIR$/sf_oom-server/sf_oom-server.iml" />
+    </modules>
+  </component>
+</project>
