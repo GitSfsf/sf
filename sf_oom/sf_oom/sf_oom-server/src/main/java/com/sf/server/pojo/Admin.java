@@ -8,6 +8,7 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+<<<<<<< HEAD
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
@@ -17,6 +18,14 @@ import java.util.Collection;
 /**
  * <p>
  *
+=======
+
+import java.io.Serializable;
+
+/**
+ * <p>
+ * 
+>>>>>>> cb36043f543949fb70f6a7ef578812202b138ff6
  * </p>
  *
  * @author shifeng
@@ -27,7 +36,11 @@ import java.util.Collection;
 @Accessors(chain = true)
 @TableName("t_admin")
 @ApiModel(value="Admin对象", description="")
+<<<<<<< HEAD
 public class Admin implements Serializable, UserDetails {
+=======
+public class Admin implements Serializable {
+>>>>>>> cb36043f543949fb70f6a7ef578812202b138ff6
 
     private static final long serialVersionUID = 1L;
 
@@ -63,6 +76,7 @@ public class Admin implements Serializable, UserDetails {
     private String remark;
 
 
+<<<<<<< HEAD
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return null;
@@ -87,4 +101,6 @@ public class Admin implements Serializable, UserDetails {
     public boolean isEnabled() {
         return enabled;
     }
+=======
+>>>>>>> cb36043f543949fb70f6a7ef578812202b138ff6
 }

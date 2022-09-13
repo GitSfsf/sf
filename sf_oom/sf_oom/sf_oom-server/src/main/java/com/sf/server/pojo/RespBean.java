@@ -34,6 +34,10 @@ public class RespBean {
     public static RespBean success(String message,Object obj){
         return new RespBean(200,message,obj);
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> cb36043f543949fb70f6a7ef578812202b138ff6
     /**
      * 失败返回结果
      * @param message
