@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a31fd441-130d-428a-ab7a-2a2a96325075" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/sf_oom-server/src/main/java/com/sf/server/pojo/RespBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/sf_oom-server/src/main/java/com/sf/server/pojo/RespBean.java" afterDir="false" />
-    </list>
+    <list default="true" id="a31fd441-130d-428a-ab7a-2a2a96325075" name="Changes" comment="登录以及JWT令牌token配置及实现" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +18,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="sf_glb &lt;sf_glb@163.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,7 +70,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.39930958" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -125,8 +136,29 @@
       <updated>1661926679254</updated>
       <workItem from="1661926684472" duration="5044000" />
       <workItem from="1661931809391" duration="8059000" />
-      <workItem from="1662020330856" duration="1411000" />
+      <workItem from="1662020330856" duration="2066000" />
+      <workItem from="1662023565915" duration="4177000" />
+      <workItem from="1662355915843" duration="2759000" />
+      <workItem from="1662942501642" duration="2271000" />
+      <workItem from="1663030635619" duration="379000" />
+      <workItem from="1663031315609" duration="4352000" />
+      <workItem from="1663048329453" duration="5885000" />
     </task>
+    <task id="LOCAL-00001" summary="网上办公系统">
+      <created>1662024014959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662024014959</updated>
+    </task>
+    <task id="LOCAL-00002" summary="登录以及JWT令牌token配置及实现">
+      <created>1663053470599</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663053470599</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,5 +174,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="网上办公系统" />
+    <MESSAGE value="登录以及JWT令牌token配置及实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="登录以及JWT令牌token配置及实现" />
   </component>
 </project>
