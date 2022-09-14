@@ -1,6 +1,5 @@
 package com.sf.server.service.impl;
 
-<<<<<<< HEAD
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.sf.server.config.security.JwtTokenUtil;
@@ -24,17 +23,6 @@ import java.util.Map;
 /**
  * <p>
  * 服务实现类
-=======
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.sf.server.mapper.AdminMapper;
-import com.sf.server.pojo.Admin;
-import com.sf.server.service.IAdminService;
-import org.springframework.stereotype.Service;
-
-/**
- * <p>
- *  服务实现类
->>>>>>> cb36043f543949fb70f6a7ef578812202b138ff6
  * </p>
  *
  * @author shifeng
@@ -43,7 +31,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements IAdminService {
 
-<<<<<<< HEAD
     @Autowired
     private AdminMapper adminMapper;
     @Autowired
@@ -81,6 +68,4 @@ public class AdminServiceImpl extends ServiceImpl<AdminMapper, Admin> implements
     public Admin getAdminByUserName(String username) {
         return adminMapper.selectOne(new QueryWrapper<Admin>().eq("username", username).eq("enable", true));
     }
-=======
->>>>>>> cb36043f543949fb70f6a7ef578812202b138ff6
 }

@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
 
 spring:
   #数据源配置
@@ -25,6 +25,7 @@ spring:
       connection-timeout: 30000
       #测试连接是否可用的查询语句
       connection-test-query: SELECT 1
+      #解决升级SpringBoot2.6后，因循环依赖引用导致启动时报错的问题
 
 #Mybatis-plus配置
 mybatis-plus:

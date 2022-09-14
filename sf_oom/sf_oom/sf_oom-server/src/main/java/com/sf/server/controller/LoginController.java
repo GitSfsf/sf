@@ -18,6 +18,7 @@ import java.security.Principal;
 @Api(tags = "LoginController")
 @RestController
 public class LoginController {
+
     @Autowired
     private IAdminService adminService;
 

@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
 
 spring:
   #数据源配置
@@ -25,6 +25,7 @@ spring:
       connection-timeout: 30000
       #测试连接是否可用的查询语句
       connection-test-query: SELECT 1
+      #解决升级SpringBoot2.6后，因循环依赖引用导致启动时报错的问题
 
 #Mybatis-plus配置
 mybatis-plus:
@@ -40,3 +41,13 @@ mybatis-plus:
 logging:
   level:
     com.sf.server.mapper: debug
+
+jwt:
+  #JWT存储的请求头
+  tokenHeader: Authorization
+  #JWT加解密使用的密钥
+  secret: sf-secret
+  #JWT的超期限时间
+  expiration: 604800
+  #JWT负载中拿到开头
+  tokenHead: Bearer
